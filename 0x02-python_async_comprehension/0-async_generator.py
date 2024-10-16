@@ -3,11 +3,11 @@
 Async Generator
 """
 import asyncio
-from typing import AsyncIterator
+from typing import AsyncGenerator
 import random
 
 
-async def async_generator() -> AsyncIterator[float]:
+async def async_generator() -> AsyncGenerator[float]:
     """
     Loops 10 times
     Yield a random number between 0 and 10
